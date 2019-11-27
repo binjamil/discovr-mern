@@ -15,6 +15,11 @@ const vendorSchema = new Schema(
       required: true,
       unique: true
     },
+    password: {
+      type: String,
+      required: true,
+      unique: true
+    },
     companyname: String,
     phone: String,
     reviews: [
