@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 class Navbar extends Component {
   render() {
     return (
-      <div className="navbar-fixed">
+      <div>
         <nav className="z-depth-0">
           <div className="nav-wrapper white">
             <Link
-              to="/"
+              to="/dashboard"
               style={{
                 fontFamily: "monospace"
               }}
